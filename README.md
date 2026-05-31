@@ -62,7 +62,7 @@ The Version 2 executed notebook results are the source of truth for the report.
 ├── COMP8221_TempEdgeResGNN_v2.ipynb                # main notebook
 ├── COMP8221_TempEdgeResGNN_v2_executed_for_review.ipynb   # executed copy (source of truth for results)
 ├── README.md
-├── REPORT.pdf                                      # final report (see checklist re: filename)
+├── 2026S1 COMP8221 Assignment 2 60957107 Alireza_Yegane.pdf   # final report
 ├── results/
 │   ├── all_model_results.csv
 │   ├── main_results_summary.csv
@@ -186,7 +186,7 @@ Leave out generated or environment-specific files:
 
 ## Submission checklist
 
-- [ ] Report (PDF) included, with the exact filename referenced in [File structure](#file-structure)
+- [ ] Final report PDF included: `2026S1 COMP8221 Assignment 2 60957107 Alireza_Yegane.pdf`
 - [ ] `COMP8221_TempEdgeResGNN_v2.ipynb` (main notebook) included
 - [ ] `COMP8221_TempEdgeResGNN_v2_executed_for_review.ipynb` (executed copy) included
 - [ ] `README.md` included
