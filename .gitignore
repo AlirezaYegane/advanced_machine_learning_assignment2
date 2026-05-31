@@ -25,7 +25,6 @@ REPORT_FINAL_CLEAN.html
 REPORT_FINAL_WEB.md
 REPORT_PROFESSIONAL.html
 build_professional_report.py
-logos/
 
 # Old/non-final zips
 COMP8221_A2_review_package.zip
