@@ -27,7 +27,6 @@ The headline outcome:
 - [Figures](#figures)
 - [Reproducibility notes](#reproducibility-notes)
 - [What not to submit](#what-not-to-submit)
-- [Submission checklist](#submission-checklist)
 
 ---
 
@@ -181,19 +180,5 @@ Leave out generated or environment-specific files:
 - `.ipynb_checkpoints/`
 - temporary cache files and large raw dataset downloads
 - unused scratch outputs
-
-[Back to top](#table-of-contents)
-
-## Submission checklist
-
-- [ ] Final report PDF included: `2026S1 COMP8221 Assignment 2 60957107 Alireza_Yegane.pdf`
-- [ ] `COMP8221_TempEdgeResGNN_v2.ipynb` (main notebook) included
-- [ ] `COMP8221_TempEdgeResGNN_v2_executed_for_review.ipynb` (executed copy) included
-- [ ] `README.md` included
-- [ ] `results/` folder with all five CSVs
-- [ ] `figures/` folder with all PNGs
-- [ ] `data/`, virtual environments, `__pycache__/`, and checkpoint folders **removed**
-- [ ] Notebook re-runs cleanly in `quick` mode on a fresh checkout
-- [ ] Folder structure matches the format required by the assignment specification
 
 [Back to top](#table-of-contents)
