@@ -1,0 +1,43 @@
+# Python / virtual environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset / generated local data
+data/
+outputs/
+
+# Local archives and backups
+_NOT_FOR_SUBMISSION_ARCHIVE/
+_V2_SOURCE_TRUTH_BACKUP/
+*_before_cleaning.ipynb
+*_before_patches.ipynb
+
+# Draft/intermediate report files
+REPORT_DRAFT.md
+REPORT_FINAL.md
+REPORT_FINAL.html
+REPORT_FINAL_CLEAN.html
+REPORT_FINAL_WEB.md
+REPORT_PROFESSIONAL.html
+build_professional_report.py
+logos/
+
+# Old/non-final zips
+COMP8221_A2_review_package.zip
+COMP8221_A2_v2_review_package.zip
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Final submission folder is packaged as ZIP, do not track duplicate folder
+2026S1 COMP8221 Assignment 2 60957107 Alireza_Yegane/
+
+# Local/raw exported report name; official renamed PDF is tracked instead
+COMP8221 Assignment 2 Report.pdf
