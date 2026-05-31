@@ -26,7 +26,6 @@ The headline outcome:
 - [Generated results](#generated-results)
 - [Figures](#figures)
 - [Reproducibility notes](#reproducibility-notes)
-- [What not to submit](#what-not-to-submit)
 
 ---
 
@@ -167,18 +166,5 @@ All figures are written to `figures/` and grouped by what they show:
 - Feature scaling (`StandardScaler`) is fitted on **training nodes only**, to avoid leaking later-period statistics into preprocessing.
 - Unknown-label nodes are retained for message passing but excluded from loss and metrics.
 - Small run-to-run variation is still possible: some PyTorch Geometric scatter operations are non-deterministic on GPU.
-
-[Back to top](#table-of-contents)
-
-## What not to submit
-
-Leave out generated or environment-specific files:
-
-- `data/` or `data/Elliptic/` (auto-downloaded)
-- `.venv/`, `venv/`, or conda environment folders
-- `__pycache__/`
-- `.ipynb_checkpoints/`
-- temporary cache files and large raw dataset downloads
-- unused scratch outputs
 
 [Back to top](#table-of-contents)
